@@ -10,7 +10,7 @@ const About = () => {
 
          <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-               <Image src={assets.user_image} alt='shah reza' className='w-full rounded-3xl'></Image>
+               <Image src={assets.user_image} alt='shah reza' className='w-full h-full rounded-3xl'></Image>
             </div>
             <div className='flex-1'>
                <p className='mb-10 max-w-2xl font-ovo'>I am a driven professional with a strong foundation in web development, tech innovation, and team leadership. My expertise lies in fostering collaboration, optimizing resources, and embracing new technologies to solve real-world challenges. Currently, I am honing my skills in web development, DSA, and backend technologies, with aspirations to bridge the gap between development and artificial intelligence. I am passionate about continuous learning, creative problem-solving, and contributing to innovative projects that make a difference.</p>
