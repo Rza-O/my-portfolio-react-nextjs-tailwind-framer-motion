@@ -1,5 +1,4 @@
 import user_image1 from './user-image.png';
-import react from './Skills/reactjs.gif'
 import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
@@ -44,6 +43,18 @@ import github from './github.svg'
 import linkedin from './linkedin.png'
 import x from './x.png'
 import instagram from './instagram.svg'
+import react from './logo/react.png'
+import js from './logo/js.png'
+import css from './logo/css.png'
+import express from './logo/express.png'
+import motion from './logo/framer-motion-seeklogo.png'
+import html from './logo/html5.png'
+import mongo from './logo/MongoDB_ForestGreen.png'
+import nodeDark from './logo/nodejsStackedDark.svg'
+import tailwind from './logo/tailwind.png'
+import nodeLight from './logo/nodejsStackedLight.svg'
+import nextjs from './logo/nextjs-icon.png'
+import expressLight from './logo/expressLight.png'
 
 
 export const assets = {
@@ -90,7 +101,18 @@ export const assets = {
     github,
     linkedin,
     x,
-    instagram
+    instagram,
+    js,
+    css,
+    express,
+    motion,
+    html,
+    mongo,
+    nodeDark,
+    tailwind,
+    nodeLight,
+    nextjs,
+    expressLight
 };
 
 export const workData = [
