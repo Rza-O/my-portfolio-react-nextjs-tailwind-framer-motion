@@ -42,7 +42,7 @@ const Navbar = () => {
                <li><a className='font-ovo' href="#top">Home</a></li>
                <li><a className='font-ovo' href="#about">About</a></li>
                <li><a className='font-ovo' href="#skills">Skills</a></li>
-               <li><a className='font-ovo' href="#work">My Works</a></li>
+               <li><a className='font-ovo' href="#works">My Works</a></li>
                <li><a className='font-ovo' href="#contact">Contact me</a></li>
             </ul>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                <li><a className='font-ovo' onClick={closeMenu} href="#top">Home</a></li>
                <li><a className='font-ovo' onClick={closeMenu} href="#about">About</a></li>
                <li><a className='font-ovo' onClick={closeMenu} href="#skills">Skills</a></li>
-               <li><a className='font-ovo' onClick={closeMenu} href="#work">My Works</a></li>
+               <li><a className='font-ovo' onClick={closeMenu} href="#works">My Works</a></li>
                <li><a className='font-ovo' onClick={closeMenu} href="#contact">Contact me</a></li>
             </ul>
          </nav>
