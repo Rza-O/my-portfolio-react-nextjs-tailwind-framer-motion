@@ -38,6 +38,13 @@ import right_arrow from './right-arrow.png';
 // import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import profileImg from './profile1.jpg'
+import profileImg2 from './profile2.jpg'
+import github from './github.svg'
+import linkedin from './linkedin.png'
+import x from './x.png'
+import instagram from './instagram.svg'
+
 
 export const assets = {
     user_image,
@@ -77,7 +84,13 @@ export const assets = {
     // send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    react
+    react,
+    profileImg2,
+    profileImg,
+    github,
+    linkedin,
+    x,
+    instagram
 };
 
 export const workData = [
