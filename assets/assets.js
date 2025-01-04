@@ -1,4 +1,5 @@
 import user_image1 from './user-image.png';
+import react from './Skills/reactjs.gif'
 import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
@@ -75,7 +76,8 @@ export const assets = {
     right_arrow,
     // send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    react
 };
 
 export const workData = [
@@ -109,7 +111,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.react, iconDark: assets.react, title: 'React JS', description: 'HTML, CSS, JavaScript React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
