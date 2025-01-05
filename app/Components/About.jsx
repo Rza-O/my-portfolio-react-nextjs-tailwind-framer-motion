@@ -41,7 +41,16 @@ const About = ({ isDarkMode }) => {
                whileInView={{ opacity: 1 }}
                transition={{ duration: 0.6, delay: 0.8 }}
                className='flex-1'>
-               <p className='mb-10 max-w-2xl font-ovo'>I am a driven professional with a strong foundation in web development, tech innovation, and team leadership. My expertise lies in fostering collaboration, optimizing resources, and embracing new technologies to solve real-world challenges. Currently, I am honing my skills in web development, DSA, and backend technologies, with aspirations to bridge the gap between development and artificial intelligence. I am passionate about continuous learning, creative problem-solving, and contributing to innovative projects that make a difference.</p>
+               <p className='mb-10 max-w-4xl font-ovo'>My journey with computers began when I was in the 4th grade, a curious child in awe of a device my uncle brought home—a simple computer that sparked a lifelong fascination. By the 7th grade, I taught myself C programming, spending hours experimenting with code, fueled by an unrelenting desire to create something of my own. Those early days planted a seed, a dream to one day become a software engineer.
+                  <br />
+                  Years later, I pursued this dream by enrolling in the University of Manitoba in Canada to study Computer Science. But as fate would have it, the pandemic disrupted my plans, and I found myself returning home before completing my degree. Back in Bangladesh, I took on the role of Assistant General Manager at Supti Chemical Company. The job offered financial security and respect, yet it left me feeling unfulfilled. Deep down, I knew I was far from where I truly wanted to be—creating, building, and solving problems as a software engineer.
+                  <br />
+                  Even though I started my journey later than most, I remind myself that starting late is better than never starting at all. With this mindset, I transitioned into web development, embracing every challenge with determination and a renewed sense of purpose. Along the way, I’ve cultivated skills not just in coding but also in resilience, self-discipline, and passion for learning.
+                  <br />
+                  Beyond my professional aspirations, I’m a self-taught guitarist, drawn to the soul-stirring melodies of blues. There’s something magical about losing myself in the rhythm of a blues guitar, my favorite genre to play. And when I’m not coding or strumming, you’ll often find me cheering passionately for FC Barcelona, a team that has taught me the beauty of persistence, teamwork, and unwavering belief.
+                  <br />
+                  Life hasn’t always followed the path I imagined, but each twist and turn has shaped the person I am today. Through moments of challenge and triumph, I’ve come to see every setback as an opportunity to grow and move closer to the life I’ve always envisioned—one driven by passion, creativity, and purpose.
+               </p>
 
                {/* <motion.ul
                   initial={{ opacity: 0 }}
@@ -64,7 +73,7 @@ const About = ({ isDarkMode }) => {
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.8, delay: 1 }}
-                  className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                  className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 max-w-3xl'>
                   <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
                      <IoLocationOutline className='text-2xl' />
                      <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Location</h3>
@@ -75,6 +84,11 @@ const About = ({ isDarkMode }) => {
                      <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Phone</h3>
                      <p className='text-gray-600 text-sm dark:text-white/80 overflow-auto'>+8801970853705</p>
                   </div>
+                  <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
+                     <Image src={assets.mail_icon} className='w-6'></Image>
+                     <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Email</h3>
+                     <p className='text-gray-600 text-sm dark:text-white/80 '>shahreza.dev@gmail.com</p>
+                  </div>
                </motion.div>
 
 
@@ -83,7 +97,7 @@ const About = ({ isDarkMode }) => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1.3, delay: 0.5 }}
                   className='my-6 font-ovo text-gray-700 dark:text-white/80'>Where you can find me</motion.h4> */}
-               
+
 
                {/* <motion.ul
                   initial={{ opacity: 0 }}

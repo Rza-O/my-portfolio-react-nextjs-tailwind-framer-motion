@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import Image from 'next/image';
 
 
-const Header = () => {
+const Header = ({ isDarkMode }) => {
    return (
       <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
          <motion.div
@@ -39,49 +39,49 @@ const Header = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-                  className='flex items-center gap-3 sm:gap-5'
+            className='flex items-center gap-3 sm:gap-5'
+         >
+            <a href="https://github.com/Rza-O" target='_blank'>
+               <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.01 }}
+                  className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
                >
-                  <a href="https://github.com/Rza-O" target='_blank'>
-                     <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        transition={{duration: 0.01}}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
-                     >
-                        <Image src={assets.github} className='w-5 sm:w-7'></Image>
-                     </motion.div>
-                  </a>
-
-                  <a href="https://www.linkedin.com/in/andshahreza/" target='_blank'>
-                     <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 0.01 }}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
-                     >
-                        <Image src={assets.linkedin} className='w-5 sm:w-7'></Image>
-                     </motion.div>
-                  </a>
-
-                  <a href="https://x.com/iRezaShohag" target='_blank'>
-                     <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 0.01 }}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
-                     >
-                        <Image src={assets.x} className='w-5 sm:w-7'></Image>
-                     </motion.div>
-                  </a>
-
-                  <a href="https://www.instagram.com/andshahreza/" target='_blank'>
-                     <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        transition={{duration: 0.01}}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
-                     >
-                        <Image src={assets.instagram} className=' sm:w-7'></Image>
-                     </motion.div>
-                  </a>
-
+                  <Image src={isDarkMode ? assets.gitLight : assets.github} className='w-5 sm:w-7'></Image>
                </motion.div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/andshahreza/" target='_blank'>
+               <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.01 }}
+                  className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+               >
+                  <Image src={assets.linkedin} className='w-5 sm:w-7'></Image>
+               </motion.div>
+            </a>
+
+            <a href="https://x.com/iRezaShohag" target='_blank'>
+               <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.01 }}
+                  className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+               >
+                  <Image src={assets.x} className='w-5 sm:w-7'></Image>
+               </motion.div>
+            </a>
+
+            <a href="https://www.instagram.com/andshahreza/" target='_blank'>
+               <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.01 }}
+                  className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+               >
+                  <Image src={assets.instagram} className=' sm:w-7'></Image>
+               </motion.div>
+            </a>
+
+         </motion.div>
 
          <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a

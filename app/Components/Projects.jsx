@@ -28,7 +28,7 @@ const Projects = ({isDarkMode}) => {
             transition={{ duration: 0.5, delay: 0.7 }}
             className='text-center max-w-2xl mx-auto mt-6 mb-12 font-ovo'>I am a frontend developer from Dhaka, Bangladesh. My expertise lies in fostering collaboration, optimizing resources, and embracing new technologies to solve real-world challenges.</motion.p>
 
-         <motion.div
+         {/* <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.9 }}
@@ -52,7 +52,14 @@ const Projects = ({isDarkMode}) => {
                   </motion.div>)
                )
             }
-         </motion.div>
+         </motion.div> */}
+
+
+         <div>
+            
+         </div>
+
+
 
          <motion.a
             initial={{ opacity: 0 }}

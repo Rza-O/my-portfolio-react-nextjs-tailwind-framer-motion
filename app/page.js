@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import MySkills from "./Components/MySkills";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
+import Works from "./Components/Works";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -35,7 +36,8 @@ export default function Home() {
       <Header isDarkMode={isDarkMode}></Header>
       <About isDarkMode={isDarkMode}></About>
       <MySkills isDarkMode={isDarkMode}></MySkills>
-      <Projects isDarkMode={isDarkMode}></Projects>
+      {/* <Projects isDarkMode={isDarkMode}></Projects> */}
+      <Works isDarkMode={isDarkMode}></Works>
       <Contact isDarkMode={isDarkMode}></Contact>
       <Footer isDarkMode={isDarkMode}></Footer>
     </>

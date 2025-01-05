@@ -55,6 +55,10 @@ import tailwind from './logo/tailwind.png'
 import nodeLight from './logo/nodejsStackedLight.svg'
 import nextjs from './logo/nextjs-icon.png'
 import expressLight from './logo/expressLight.png'
+import shareAMeal from './sites/shareAMeal.png'
+import cinePop from './sites/cinePop.png'
+import nomadLand from './sites/nomadLand.png'
+import gitLight from './logo/github-mark-white.png'
 
 
 export const assets = {
@@ -112,7 +116,8 @@ export const assets = {
     tailwind,
     nodeLight,
     nextjs,
-    expressLight
+    expressLight,
+    gitLight
 };
 
 export const workData = [
@@ -154,3 +159,30 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const projects = [
+    {
+        title: "Share-A-Meal",
+        image: shareAMeal,
+        description: 'This project focuses on connecting donors and recipients to reduce food waste and share meals with those in need. Built with a robust tech stack, this project ensures smooth user experiences, dynamic interactions, and powerful functionality.',
+        technologies: ["React", "React Router", "Firebase", "Tailwind", "Framer", "Node JS", "Express JS", "Mongo DB"],
+        liveLink: "https://share-aa-meal.web.app/",
+        repo: "https://github.com/Rza-O/share-a-meal-fullstack-client"
+    },
+    {
+        title: "Cine Pop",
+        image: cinePop,
+        description: 'CinePop is a dynamic movie portal that allows users to explore, review, and manage their favorite films. With features like user authentication, movie CRUD operations, personalized favorites, and dark/light theme toggles, CinePop offers an intuitive and engaging experience.',
+        technologies: ["React", "React Router", "Firebase", "Tailwind", "Node JS", "Express JS", "Mongo DB"],
+        liveLink: 'http://cine-popcorn.surge.sh/',
+        repo: "https://github.com/Rza-O/CinePop-Movie-Review-Portal--client"
+    },
+    {
+        title: "Nomad's Land",
+        image: nomadLand,
+        description: "Nomad's Land is an eco-adventure blog website dedicated to promoting sustainable travel experiences. It allows users to explore detailed information on eco-friendly adventures, while encouraging responsible tourism. With features like expert consultations, user profiles, and interactive tools, it fosters community engagement and makes it easier for users to plan their next eco-conscious journey.",
+        technologies: ["React", "React Router", "Firebase", "Tailwind", "AOS", "Swiper"],
+        liveLink: 'https://nomads-land.surge.sh/',
+        repo: "https://github.com/Rza-O/nomads-land-ecoadventure-react-full-assignment"
+    }
+]
