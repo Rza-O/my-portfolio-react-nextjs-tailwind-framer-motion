@@ -183,6 +183,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.5, delay: 0.2, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.js}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>JavaScript</h3>
@@ -192,6 +193,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.6, delay: 0.3, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.react}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>React Js</h3>
@@ -201,6 +203,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.7, delay: 0.4, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={isDarkMode? assets.nodeLight : assets.nodeDark}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Node JS</h3>
@@ -210,6 +213,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.8, delay: 0.5, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={isDarkMode ? assets.expressLight : assets.express}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Express Js</h3>
@@ -219,6 +223,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.9, delay: 0.6, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.mongo}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Mongo DB</h3>
@@ -228,6 +233,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.9, delay: 0.6, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.nextjs}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Next JS</h3>
@@ -237,6 +243,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.9, delay: 0.7, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.tailwind}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Tailwind CSS</h3>
@@ -246,6 +253,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.9, delay: 0.8, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.motion}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Framer Motion</h3>
@@ -255,6 +263,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.9, delay: 0.9, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.html}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>HTML 5</h3>
@@ -264,6 +273,7 @@ const MySkills = ({ isDarkMode }) => {
                initial={{ opacity: 0, x: -10 }}
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 1, delay: 0.9, type: 'tween' }}
+               viewport={{ once: true, amount: 0.5 }}
                className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 flex-col flex items-center justify-evenly'>
                <Image src={assets.css}></Image>
                <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>CSS 3</h3>

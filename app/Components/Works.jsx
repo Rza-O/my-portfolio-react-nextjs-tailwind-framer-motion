@@ -11,7 +11,7 @@ const Works = ({ isDarkMode }) => {
    return (
       <motion.div
          
-         className='max-w-7xl mx-auto'>
+         className='w-full px-[12%] py-10 scroll-mt-20'>
          <motion.h4
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
