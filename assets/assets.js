@@ -174,7 +174,7 @@ export const projects = [
         image: cinePop,
         description: 'CinePop is a dynamic movie portal that allows users to explore, review, and manage their favorite films. With features like user authentication, movie CRUD operations, personalized favorites, and dark/light theme toggles, CinePop offers an intuitive and engaging experience.',
         technologies: ["React", "React Router", "Firebase", "Tailwind", "Node JS", "Express JS", "Mongo DB"],
-        liveLink: 'http://cine-popcorn.surge.sh/',
+        liveLink: 'https://cinepop.surge.sh/',
         repo: "https://github.com/Rza-O/CinePop-Movie-Review-Portal--client"
     },
     {
