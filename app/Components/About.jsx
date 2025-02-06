@@ -28,14 +28,16 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+            className='flex w-full flex-col lg:flex-row items-center lg:items-stretch gap-20 my-20'>
+            {/* about image */}
             <motion.div
                initial={{ opacity: 0, scale: 0.9 }}
                whileInView={{ opacity: 1, scale: 1 }}
                transition={{ duration: 0.6 }}
                className='w-64 sm:w-80 rounded-3xl max-w-none'>
-               <Image src={assets.profileImg} alt='shah reza' className='w-full h-full rounded-3xl'></Image>
+               <Image src={assets.profileImg} alt='shah reza' className='w-full object-cover h-2/3 lg:h-1/2 2xl:h-2/3 rounded-3xl'></Image>
             </motion.div>
+            {/* About content */}
             <motion.div
                initial={{ opacity: 0 }}
                whileInView={{ opacity: 1 }}
@@ -79,16 +81,20 @@ const About = ({ isDarkMode }) => {
                      <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Location</h3>
                      <p className='text-gray-600 text-sm dark:text-white/80'>Dhaka, Bangladesh</p>
                   </div>
-                  <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
-                     <HiOutlinePhone className='text-2xl' />
-                     <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Phone</h3>
-                     <p className='text-gray-600 text-sm dark:text-white/80 overflow-auto'>+8801970853705</p>
-                  </div>
-                  <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
-                     <Image src={assets.mail_icon} className='w-6' alt=''></Image>
-                     <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Email</h3>
-                     <p className='text-gray-600 text-sm dark:text-white/80 '>shahreza.dev@gmail.com</p>
-                  </div>
+                  <a href="https://wa.me/+8801970853705" target='_blank'>
+                     <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
+                        <HiOutlinePhone className='text-2xl' />
+                        <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Phone</h3>
+                        <p className='text-gray-600 text-sm dark:text-white/80 overflow-auto'>+8801970853705</p>
+                     </div>
+                  </a>
+                  <a href="mailto:shahreza.dev@gmail.com">
+                     <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
+                        <Image src={assets.mail_icon} className='w-6' alt=''></Image>
+                        <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Email</h3>
+                        <p className='text-gray-600 text-sm dark:text-white/80 '>shahreza.dev@gmail.com</p>
+                     </div>
+                  </a>
                </motion.div>
 
 

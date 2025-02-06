@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 const Works = ({ isDarkMode }) => {
    return (
       <motion.div
-         
+         id='works'
          className='w-full px-[12%] py-10 scroll-mt-20'>
          <motion.h4
             initial={{ opacity: 0, y: -20 }}
@@ -31,13 +31,15 @@ const Works = ({ isDarkMode }) => {
                      whileInView={{ opacity: 1 }}
                      transition={{ duration: 1 }}
                      key={idx} className='mb-12 border-b pb-6 flex flex-wrap lg:justify-center gap-8 items-center'>
+                     
                      <motion.div
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x:0 }}
                         transition={{ duration: 1, delay: 0.3 }}
-                        className='w-full lg:w-1/4'>
+                        className='w-full lg:w-2/3 2xl:w-1/4'>
                         <Image src={project.image} alt='' className='mb-6 rounded'></Image>
                      </motion.div>
+                     
                      <motion.div
                         initial={{ opacity: 0, x: 20}}
                         whileInView={{ opacity: 1, x: 0}}
