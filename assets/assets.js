@@ -59,6 +59,7 @@ import shareAMeal from './sites/shareAMeal.png'
 import cinePop from './sites/cinePop.png'
 import nomadLand from './sites/nomadLand.png'
 import gitLight from './logo/github-mark-white.png'
+import gigBite from './sites/gig-biteSS.png'
 
 
 export const assets = {
@@ -162,6 +163,14 @@ export const toolsData = [
 
 export const projects = [
     {
+        title: "Gig-Bite",
+        image: gigBite,
+        description: 'GigBite is a micro-task and earning platform designed to connect workers and buyers for task-based collaborations. The platform ensures seamless task management, coin-based payments, and role-specific dashboards.',
+        technologies: ["React", "React Router", "JWT", "Firebase", "Tailwind", "Framer", "Node JS", "Express JS", "stripe", "Mongo DB"],
+        liveLink: "https://share-aa-meal.web.app/",
+        repo: "https://github.com/Rza-O/share-a-meal-fullstack-client"
+    },
+    {
         title: "Share-A-Meal",
         image: shareAMeal,
         description: 'This project focuses on connecting donors and recipients to reduce food waste and share meals with those in need. Built with a robust tech stack, this project ensures smooth user experiences, dynamic interactions, and powerful functionality.',
@@ -177,12 +186,12 @@ export const projects = [
         liveLink: 'https://cinepop.surge.sh/',
         repo: "https://github.com/Rza-O/CinePop-Movie-Review-Portal--client"
     },
-    {
-        title: "Nomad's Land",
-        image: nomadLand,
-        description: "Nomad's Land is an eco-adventure blog website dedicated to promoting sustainable travel experiences. It allows users to explore detailed information on eco-friendly adventures, while encouraging responsible tourism. With features like expert consultations, user profiles, and interactive tools, it fosters community engagement and makes it easier for users to plan their next eco-conscious journey.",
-        technologies: ["React", "React Router", "Firebase", "Tailwind", "AOS", "Swiper"],
-        liveLink: 'https://nomads-land.surge.sh/',
-        repo: "https://github.com/Rza-O/nomads-land-ecoadventure-react-full-assignment"
-    }
+    // {
+    //     title: "Nomad's Land",
+    //     image: nomadLand,
+    //     description: "Nomad's Land is an eco-adventure blog website dedicated to promoting sustainable travel experiences. It allows users to explore detailed information on eco-friendly adventures, while encouraging responsible tourism. With features like expert consultations, user profiles, and interactive tools, it fosters community engagement and makes it easier for users to plan their next eco-conscious journey.",
+    //     technologies: ["React", "React Router", "Firebase", "Tailwind", "AOS", "Swiper"],
+    //     liveLink: 'https://nomads-land.surge.sh/',
+    //     repo: "https://github.com/Rza-O/nomads-land-ecoadventure-react-full-assignment"
+    // }
 ]

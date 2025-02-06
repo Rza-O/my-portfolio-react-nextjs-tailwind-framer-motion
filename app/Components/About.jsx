@@ -85,7 +85,7 @@ const About = ({ isDarkMode }) => {
                      <p className='text-gray-600 text-sm dark:text-white/80 overflow-auto'>+8801970853705</p>
                   </div>
                   <div className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
-                     <Image src={assets.mail_icon} className='w-6'></Image>
+                     <Image src={assets.mail_icon} className='w-6' alt=''></Image>
                      <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Email</h3>
                      <p className='text-gray-600 text-sm dark:text-white/80 '>shahreza.dev@gmail.com</p>
                   </div>
