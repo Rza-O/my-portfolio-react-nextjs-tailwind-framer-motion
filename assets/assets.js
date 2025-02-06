@@ -167,8 +167,8 @@ export const projects = [
         image: gigBite,
         description: 'GigBite is a micro-task and earning platform designed to connect workers and buyers for task-based collaborations. The platform ensures seamless task management, coin-based payments, and role-specific dashboards.',
         technologies: ["React", "React Router", "JWT", "Firebase", "Tailwind", "Framer", "Node JS", "Express JS", "stripe", "Mongo DB"],
-        liveLink: "https://share-aa-meal.web.app/",
-        repo: "https://github.com/Rza-O/share-a-meal-fullstack-client"
+        liveLink: "https://gig-bite.web.app/",
+        repo: "https://github.com/Rza-O/Rza-O-gigbite-dashboard-fullstack-client"
     },
     {
         title: "Share-A-Meal",

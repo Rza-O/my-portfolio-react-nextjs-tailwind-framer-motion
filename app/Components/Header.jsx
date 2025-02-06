@@ -11,6 +11,7 @@ const Header = ({ isDarkMode }) => {
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+            className='mt-4'
          >
             <Image src={assets.profileImg2} alt='' className='rounded-full w-28 lg:w-32 mt-9'></Image>
          </motion.div>
